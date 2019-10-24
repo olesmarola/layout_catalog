@@ -1,11 +1,20 @@
-.feedback-star {
+.stars-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 91px; }
+
+.star {
   width: 15px;
   height: 15px;
   background-repeat: no-repeat;
   background-position: center; }
-  .feedback-star__active {
+  .star__active {
     background-image: url("../images/star-active.svg"); }
-  .feedback-star__inactive {
+  .star__inactive {
     background-image: url("../images/star.svg"); }
 
 /*# sourceMappingURL=stars.css.map */
